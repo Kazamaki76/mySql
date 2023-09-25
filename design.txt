@@ -1,0 +1,24 @@
+REGISTER 
+POST /auth/register
+BODY username, password,confirm password, email?
+
+
+LOGIN
+POST /auth/login
+BODY username, password, 
+
+
+
+CREATE TODO
+POST /todo 
+BODY title, complete?, dueDate?, userId
+
+
+
+UPDATE TODO BY ID 
+
+DELETE TODO BY ID 
+
+GET ALL TODO 
+
+GET TODO BY ID 
